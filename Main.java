@@ -4,10 +4,10 @@ public class Main {
 
         Karyawan k1,k2,k3,k4;
         try {
-            k1 = new Karyawan("Kharan", 35000000.0, p1);
-            k2 = new Karyawan("Aldrin", 470000000.0, p1);
-            k3 = new Karyawan("Rafi", 25000000.0, p1);
-            k4 = new Karyawan("Farrel", 900000000.0, p1);
+            k1 = new Karyawan("Kharan", 35000000, p1);
+            k2 = new Karyawan("Aldrin", 470000000, p1);
+            k3 = new Karyawan("Rafi", 25000000, p1);
+            k4 = new Karyawan("Farrel", 900000000, p1);
 
             k1.info();
             k2.info();
